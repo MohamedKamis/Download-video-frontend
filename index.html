@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Download video</title>
+</head>
+<body>
+    <header>
+        <h2 style="position: relative;display: inline-block;">Download from Youtube </h2>
+        <nav>
+          <ul>
+            <!-- <li><a href="#">Download Ficebook</a></li> -->
+            <li><a href="#" style="margin-right: 0px;">some servises</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+      <main>
+        <section id="contact">
+
+          <form>
+            <label for="name"><h3>Link video:</h3></label>
+            <input type="text" id="link" name="link" required><input type="button" id="clear" value="x">
+            <input type="button" id="scan" value="بحث عن الفيديو "><br>
+            <img src="./css//img/login.jpg" id="icon_download" width="50" alt=""> 
+            <p id="err" style="color: red; display: none;">هذا الفيديو غير متاح </p>
+            <br>
+            <div id="div_end" style="display: none;">
+
+            <label for="type">اختيار نوع التحميل:</label>
+            <select id="type">
+            <option value="mp4">mp4</option>
+            <option value="mp3">mp3</option>
+            </select><br>
+            <br>
+            <label for="filter">اختار جودت التحميل :</label>
+            <select id="filter">
+            <option value="144">144</option>
+            <option value="280">280</option>
+            <option value="360">360</option>
+            </select><br><br>
+            <!-- <video controls src="./x2.mp4" id="video"></video><br> -->
+            <button class="download-button" type="button" id="end_download" >Download</button>
+              
+          </div>
+          <div class="viwes">
+            <label for="viwes">viwes</label><br>
+              <p> 19005</p>
+          </div>
+          </form>
+
+        </section>
+
+      </main>
+ 
+   <footer>
+    <div class="container">
+  
+      <div class="row">
+        <div class="col-md-6">
+          <p><a href="https://www.facebook.com/mohamed.dark.9041">support by  eng Mohamed</a></p>
+        </div>
+      </div>
+    </div> 
+  </footer>
+  <script src="./js//scrypt.js"></script>
+</body>
+
+</html>
